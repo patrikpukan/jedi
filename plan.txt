@@ -1,0 +1,11 @@
+classes:
+
+player
+
+npc
+
+item
+
+room
+
+game-thingy?
