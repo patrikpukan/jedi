@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandFight
+comment0.text=\r\n\ T\u0159\u00EDda\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ pro\ boj.\r\n\r\n\ @author\ Patrik\ Pukan\r\n\ @version\ ZS-2022,\ 2022-12-30\r\n
+comment1.params=game
+comment1.target=CommandFight(Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ game\ hra,\ ve\ kter\u00E9\ se\ bude\ p\u0159\u00EDkaz\ pou\u017E\u00EDvat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.&nbsp;\ slovo\ <b>boj</b>.\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+comment3.params=parameters
+comment3.target=java.lang.String\ execute(java.lang.String[])
+comment3.text=\r\n\ Metoda\ zacne\ boj,\ nasledne\ vrati\ vysledok\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(o\u010Dek\u00E1v\u00E1\ se\ meno\ protivnika)</i>\r\n\ @return\ informace\ o\ vysledku\ boja\r\n
+numComments=4

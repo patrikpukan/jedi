@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CommandSearchInventoryTest
+comment0.text=\r\n\ Testovac\u00ED\ t\u0159\u00EDda\ {@code\ CommandSearchInventoryTest}\ slou\u017E\u00ED\ ke\ komplexn\u00EDmu\ otestov\u00E1n\u00ED\r\n\ t\u0159\u00EDdy\ {@link\ CommandSearchInventoryTest}.\r\n\r\n\ @author\ Patrik\ Pukan\r\n\ @version\ ZS-2022,\ 2023-01-15\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testIncorrectParameters()
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuje\ Charakter\ ve\ sc\u00E9n\u00E1\u0159i\r\n\ hry.\ Ka\u017Edy\ charakter\ m\u00E1\ n\u00E1zev,\ kter\u00FD\ ho\ jednozna\u010Dn\u011B\ identifikuje.\ Tak\ isto\ o\ nom\ vieme,\ ci\ je\ to\ nepriatel,\ alebo\ nie\ je.\r\n\r\n\ @author\ Patrik\ Pukan\r\n\ @version\ ZS-2022,\ 2023-01-22\r\n
+comment1.params=name\ description\ isEnemy
+comment1.target=Character(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy,\ vytvo\u0159\u00ED\ charakter\ se\ zadan\u00FDm\ n\u00E1zvem\ a\ popisem,\ aj\ ci\ je\ nepriatelsky\r\n\r\n\ @param\ name\ n\u00E1zev\ charakteru\ <i>(jednozna\u010Dn\u00FD\ identifik\u00E1tor,\ mus\u00ED\ se\ jednat\ o\ text\ bez\ mezer)</i>\r\n\ @param\ description\ podrobn\u011Bj\u0161\u00ED\ popis\ charakter\r\n\ @param\ isEnemy\ ci\ je\ nepriatel\ alebo\ nie\ je\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ charakteru,\ kter\u00FD\ byl\ zad\u00E1n\ p\u0159i\ vytv\u00E1\u0159en\u00ED\ instance\ jako\r\n\ parametr\ konstruktoru.\ Jedn\u00E1\ se\ o\ jednozna\u010Dn\u00FD\ identifik\u00E1tor\ charakteru\r\n\ <i>(ve\ h\u0159e\ nem\u016F\u017Ee\ existovat\ v\u00EDce\ oblast\u00ED\ se\ stejn\u00FDm\ n\u00E1zvem)</i>.\ Aby\r\n\ hra\ spr\u00E1vn\u011B\ fungovala,\ n\u00E1zev\ charakteru\ nesm\u00ED\ obsahovat\ mezery,\ v\ p\u0159\u00EDpad\u011B\r\n\ pot\u0159eby\ m\u016F\u017Eete\ v\u00EDce\ slov\ odd\u011Blit\ poml\u010Dkami,\ pou\u017E\u00EDt\ camel-case\ apod.\r\n\r\n\ @return\ n\u00E1zev\ charakteru\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ popis\ charakteru\r\n\r\n\ @return\ popis\ charakteru\r\n
+comment4.params=
+comment4.target=boolean\ isCharacterAnEnemy()
+comment4.text=\r\n\ Metoda\ zkontroluje,\ zda\ je\ charakter\ nepriatel\ alebo\ nie\r\n\r\n\ @return\ {@code\ true},\ pokud\ je\ charakter\ nepriatel;\ jinak\ {@code\ false}\r\n
+comment5.params=description
+comment5.target=void\ setDescription(java.lang.String)
+comment5.text=\r\n\ Metoda\ nastav\u00ED\ popis\ charakteru.\r\n\r\n\ @param\ description\ nov\u00FD\ popis\ charakteru\r\n
+numComments=6
